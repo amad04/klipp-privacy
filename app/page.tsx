@@ -21,10 +21,9 @@ const copy = {
     navTitle: "På den här sidan",
     nav: [
       ["overview", "Översikt"],
-      ["data", "Information vi behandlar"],
-      ["services", "Tjänster och delning"],
-      ["retention", "Lagring och radering"],
-      ["rights", "Dina val och rättigheter"],
+      ["data", "Det Klipp behandlar"],
+      ["services", "Tjänster vi använder"],
+      ["rights", "Dina val"],
       ["contact", "Kontakt"],
     ],
     overviewTitle: "Översikt",
@@ -33,39 +32,38 @@ const copy = {
     controllerLabel: "Personuppgiftsansvarig",
     controller:
       "Klipp utvecklas och tillhandahålls av Walid Apps. Frågor om integritet kan skickas till walid.apps@outlook.com.",
-    dataTitle: "Information vi behandlar",
-    contentTitle: "1. Innehåll du sparar",
+    dataTitle: "Det Klipp behandlar",
+    contentTitle: "Det du sparar",
     contentBody:
-      "Klipp behandlar bilder, länkar, anteckningar, taggar och annan information som du sparar för att organisera och söka i ditt bibliotek.",
+      "Bilder, länkar, anteckningar och taggar används för att organisera och söka i ditt bibliotek. När du sparar en länk kan webbplatsen kontaktas för att hämta en förhandsvisning.",
     contentNote:
-      "Detta innehåll lagras lokalt på din enhet eller i din privata iCloud-databas om du aktiverar iCloud-synk. Det skickas inte till Firebase Analytics eller Crashlytics.",
+      "Innehållet lagras på din enhet eller i din privata iCloud om du aktiverar synk. Det används inte för statistik eller kraschrapporter.",
     photosTitle: "2. Åtkomst till Foton",
     photosBody:
       "Klipp använder bara åtkomst till Foton för att importera de bilder du väljer. Du kan ändra behörigheten när som helst i iOS.",
-    analyticsTitle: "3. Firebase Analytics",
+    analyticsTitle: "Användning och stabilitet",
     analyticsBody:
-      "Firebase Analytics används för anonym användningsstatistik som hjälper oss att förbättra appen.",
+      "Firebase används för anonym användningsstatistik och tekniska kraschrapporter som hjälper oss att förbättra Klipp.",
     analyticsNo:
-      "Dina bilder, länkar, anteckningar, samlingsnamn och sökord skickas inte till Analytics.",
+      "Ditt sparade innehåll skickas inte med.",
     crashTitle: "4. Firebase Crashlytics",
     crashBody:
       "Crashlytics samlar in teknisk information om krascher, appversion och enhet för att hjälpa oss att åtgärda fel. Ditt sparade innehåll ingår inte.",
-    spreadTitle: "5. Sprid ordet",
+    spreadTitle: "Sprid ordet",
     spreadBody:
-      "Om du använder Sprid ordet sparas ett anonymt id, din valda plattform, den publika länken, ett eventuellt meddelande och ansökans status i Firebase.",
+      "Om du använder Sprid ordet sparas uppgifterna du själv skickar in för att vi ska kunna granska ansökan.",
     purchaseTitle: "6. Köp och Klipp Pro",
     purchaseBody:
       "Köp hanteras av Apple. Klipp får köpstatus men inte dina kort- eller betalningsuppgifter.",
     linksTitle: "7. Länkförhandsvisningar",
     linksBody:
       "När du sparar en länk kan Klipp kontakta webbplatsen för att hämta titel och förhandsvisningsbild.",
-    servicesTitle: "Var information lagras och delas",
+    servicesTitle: "Tjänster vi använder",
     servicesIntro:
       "Klipp använder följande leverantörer endast för funktionerna som beskrivs här:",
     services: [
       ["Apple", "Foton, köp via App Store och valfri synk i din privata iCloud-databas."],
       ["Google Firebase", "Anonym användningsstatistik, kraschrapporter och frivilliga Sprid ordet-ansökningar."],
-      ["Länkade webbplatser", "Används endast för att hämta en förhandsvisning när du sparar en länk."],
     ],
     safeguards:
       "Apple och Google behandlar information enligt sina egna integritetspolicyer och tillämpliga dataskyddsregler.",
@@ -77,12 +75,11 @@ const copy = {
     ],
     retentionTitle: "Lagring och radering",
     retentionItems: [
-      ["Ditt innehåll", "Sparas tills du raderar det. iCloud-innehåll hanteras även via dina iCloud-inställningar."],
-      ["Analytics", "Användningsdata sparas enligt Firebase-projektets inställda lagringstid."],
-      ["Crashlytics", "Kraschdata sparas normalt i 90 dagar."],
-      ["Sprid ordet", "Ansökningsdata sparas så länge den behövs för granskning och eventuell Pro-belöning."],
+      ["Ditt innehåll", "Sparas tills du raderar det i Klipp eller via iCloud."],
+      ["Teknisk data", "Sparas bara så länge den behövs för statistik och felsökning."],
+      ["Sprid ordet", "Sparas så länge ansökan behöver hanteras."],
     ],
-    rightsTitle: "Dina val och rättigheter",
+    rightsTitle: "Dina val",
     rightsIntro:
       "Du har kontroll över ditt innehåll och de behörigheter Klipp använder.",
     rights: [
@@ -130,10 +127,9 @@ const copy = {
     navTitle: "On this page",
     nav: [
       ["overview", "Overview"],
-      ["data", "Information we process"],
-      ["services", "Services and sharing"],
-      ["retention", "Retention and deletion"],
-      ["rights", "Your choices and rights"],
+      ["data", "What Klipp processes"],
+      ["services", "Services we use"],
+      ["rights", "Your choices"],
       ["contact", "Contact"],
     ],
     overviewTitle: "Overview",
@@ -142,39 +138,38 @@ const copy = {
     controllerLabel: "Data controller",
     controller:
       "Klipp is developed and provided by Walid Apps. Privacy questions can be sent to walid.apps@outlook.com.",
-    dataTitle: "Information we process",
-    contentTitle: "1. Content you save",
+    dataTitle: "What Klipp processes",
+    contentTitle: "What you save",
     contentBody:
-      "Klipp processes images, links, notes, tags, and other information you save so you can organize and search your library.",
+      "Images, links, notes, and tags are used to organize and search your library. When you save a link, the website may be contacted to retrieve a preview.",
     contentNote:
-      "This content is stored locally on your device or in your private iCloud database if you enable iCloud sync. It is not sent to Firebase Analytics or Crashlytics.",
+      "Content is stored on your device or in your private iCloud when sync is enabled. It is not used for statistics or crash reports.",
     photosTitle: "2. Photos access",
     photosBody:
       "Klipp uses Photos access only to import the images you select. You can change this permission at any time in iOS.",
-    analyticsTitle: "3. Firebase Analytics",
+    analyticsTitle: "Usage and stability",
     analyticsBody:
-      "Firebase Analytics provides anonymous usage statistics that help us improve the app.",
+      "Firebase provides anonymous usage statistics and technical crash reports that help us improve Klipp.",
     analyticsNo:
-      "Your images, links, notes, collection names, and search terms are not sent to Analytics.",
+      "Your saved content is not included.",
     crashTitle: "4. Firebase Crashlytics",
     crashBody:
       "Crashlytics collects technical crash, app version, and device information to help us fix errors. Your saved content is not included.",
-    spreadTitle: "5. Spread the Word",
+    spreadTitle: "Spread the Word",
     spreadBody:
-      "If you use Spread the Word, Firebase stores an anonymous ID, your selected platform, the public link, any optional message, and the application status.",
+      "If you use Spread the Word, the information you submit is stored so we can review the application.",
     purchaseTitle: "6. Purchases and Klipp Pro",
     purchaseBody:
       "Purchases are processed by Apple. Klipp receives the purchase status, but not your card or payment details.",
     linksTitle: "7. Link previews",
     linksBody:
       "When you save a link, Klipp may contact the website to retrieve its title and preview image.",
-    servicesTitle: "Where information is stored and shared",
+    servicesTitle: "Services we use",
     servicesIntro:
       "Klipp uses the following providers only for the purposes described here:",
     services: [
       ["Apple", "Photos, App Store purchases, and optional sync in your private iCloud database."],
       ["Google Firebase", "Anonymous usage statistics, crash reports, and voluntary Spread the Word applications."],
-      ["Linked websites", "Used only to retrieve a preview when you save a link."],
     ],
     safeguards:
       "Apple and Google process information under their own privacy policies and applicable data-protection rules.",
@@ -186,12 +181,11 @@ const copy = {
     ],
     retentionTitle: "Retention and deletion",
     retentionItems: [
-      ["Your content", "Stored until you delete it. iCloud content can also be managed through your iCloud settings."],
-      ["Analytics", "Usage data is retained according to the Firebase project’s configured retention period."],
-      ["Crashlytics", "Crash data is normally retained for 90 days."],
-      ["Spread the Word", "Application data is kept as long as needed for review and any Pro reward."],
+      ["Your content", "Stored until you delete it in Klipp or through iCloud."],
+      ["Technical data", "Kept only as long as needed for statistics and troubleshooting."],
+      ["Spread the Word", "Kept as long as needed to process the application."],
     ],
-    rightsTitle: "Your choices and rights",
+    rightsTitle: "Your choices",
     rightsIntro:
       "You control your content and the permissions Klipp uses.",
     rights: [
@@ -315,18 +309,6 @@ export default function Home() {
               ))}
             </nav>
 
-            <div className="card providers">
-              <h2>{t.providersTitle}</h2>
-              <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noreferrer">
-                {t.appleLink}<span aria-hidden="true">↗</span>
-              </a>
-              <a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noreferrer">
-                {t.firebaseLink}<span aria-hidden="true">↗</span>
-              </a>
-              <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">
-                {t.googleLink}<span aria-hidden="true">↗</span>
-              </a>
-            </div>
           </aside>
 
           <div className="policy">
@@ -344,12 +326,8 @@ export default function Home() {
               <div className="section-number">02</div>
               <h2>{t.dataTitle}</h2>
               <PolicyBlock title={t.contentTitle} body={t.contentBody} note={t.contentNote} />
-              <PolicyBlock title={t.photosTitle} body={t.photosBody} />
               <PolicyBlock title={t.analyticsTitle} body={t.analyticsBody} note={t.analyticsNo} />
-              <PolicyBlock title={t.crashTitle} body={t.crashBody} />
               <PolicyBlock title={t.spreadTitle} body={t.spreadBody} />
-              <PolicyBlock title={t.purchaseTitle} body={t.purchaseBody} />
-              <PolicyBlock title={t.linksTitle} body={t.linksBody} />
             </section>
 
             <section className="card section-card" id="services">
@@ -368,38 +346,10 @@ export default function Home() {
                 ))}
               </div>
               <p className="small-print">{t.safeguards}</p>
-
-              <div className="subsection">
-                <h2>{t.legalTitle}</h2>
-                <div className="definition-list">
-                  {t.legalItems.map(([title, body]) => (
-                    <div key={title}>
-                      <strong>{title}</strong>
-                      <p>{body}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </section>
-
-            <section className="card section-card" id="retention">
-              <div className="section-number">04</div>
-              <h2>{t.retentionTitle}</h2>
-              <div className="timeline">
-                {t.retentionItems.map(([title, body]) => (
-                  <div className="timeline-row" key={title}>
-                    <span aria-hidden="true" />
-                    <div>
-                      <h3>{title}</h3>
-                      <p>{body}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
             </section>
 
             <section className="card section-card" id="rights">
-              <div className="section-number">05</div>
+              <div className="section-number">04</div>
               <h2>{t.rightsTitle}</h2>
               <p>{t.rightsIntro}</p>
               <ul className="check-list">
@@ -408,6 +358,17 @@ export default function Home() {
                 ))}
               </ul>
               <p className="small-print">{t.rightsNote}</p>
+              <div className="subsection">
+                <h2>{t.retentionTitle}</h2>
+                <div className="definition-list">
+                  {t.retentionItems.map(([title, body]) => (
+                    <div key={title}>
+                      <strong>{title}</strong>
+                      <p>{body}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
               <div className="split">
                 <div>
                   <h3>{t.childrenTitle}</h3>
@@ -422,7 +383,7 @@ export default function Home() {
 
             <section className="card contact-card" id="contact">
               <div>
-                <div className="section-number">06</div>
+                <div className="section-number">05</div>
                 <h2>{t.contactTitle}</h2>
                 <p>{t.contactBody}</p>
               </div>

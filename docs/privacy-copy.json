@@ -28,19 +28,15 @@
       ],
       [
         "data",
-        "Information vi behandlar"
+        "Det Klipp behandlar"
       ],
       [
         "services",
-        "Tjänster och delning"
-      ],
-      [
-        "retention",
-        "Lagring och radering"
+        "Tjänster vi använder"
       ],
       [
         "rights",
-        "Dina val och rättigheter"
+        "Dina val"
       ],
       [
         "contact",
@@ -51,24 +47,24 @@
     "overview": "Klipp lagrar och organiserar innehållet du själv väljer att spara. Vi säljer inte personuppgifter och använder inte ditt innehåll för reklam.",
     "controllerLabel": "Personuppgiftsansvarig",
     "controller": "Klipp utvecklas och tillhandahålls av Walid Apps. Frågor om integritet kan skickas till walid.apps@outlook.com.",
-    "dataTitle": "Information vi behandlar",
-    "contentTitle": "1. Innehåll du sparar",
-    "contentBody": "Klipp behandlar bilder, länkar, anteckningar, taggar och annan information som du sparar för att organisera och söka i ditt bibliotek.",
-    "contentNote": "Detta innehåll lagras lokalt på din enhet eller i din privata iCloud-databas om du aktiverar iCloud-synk. Det skickas inte till Firebase Analytics eller Crashlytics.",
+    "dataTitle": "Det Klipp behandlar",
+    "contentTitle": "Det du sparar",
+    "contentBody": "Bilder, länkar, anteckningar och taggar används för att organisera och söka i ditt bibliotek. När du sparar en länk kan webbplatsen kontaktas för att hämta en förhandsvisning.",
+    "contentNote": "Innehållet lagras på din enhet eller i din privata iCloud om du aktiverar synk. Det används inte för statistik eller kraschrapporter.",
     "photosTitle": "2. Åtkomst till Foton",
     "photosBody": "Klipp använder bara åtkomst till Foton för att importera de bilder du väljer. Du kan ändra behörigheten när som helst i iOS.",
-    "analyticsTitle": "3. Firebase Analytics",
-    "analyticsBody": "Firebase Analytics används för anonym användningsstatistik som hjälper oss att förbättra appen.",
-    "analyticsNo": "Dina bilder, länkar, anteckningar, samlingsnamn och sökord skickas inte till Analytics.",
+    "analyticsTitle": "Användning och stabilitet",
+    "analyticsBody": "Firebase används för anonym användningsstatistik och tekniska kraschrapporter som hjälper oss att förbättra Klipp.",
+    "analyticsNo": "Ditt sparade innehåll skickas inte med.",
     "crashTitle": "4. Firebase Crashlytics",
     "crashBody": "Crashlytics samlar in teknisk information om krascher, appversion och enhet för att hjälpa oss att åtgärda fel. Ditt sparade innehåll ingår inte.",
-    "spreadTitle": "5. Sprid ordet",
-    "spreadBody": "Om du använder Sprid ordet sparas ett anonymt id, din valda plattform, den publika länken, ett eventuellt meddelande och ansökans status i Firebase.",
+    "spreadTitle": "Sprid ordet",
+    "spreadBody": "Om du använder Sprid ordet sparas uppgifterna du själv skickar in för att vi ska kunna granska ansökan.",
     "purchaseTitle": "6. Köp och Klipp Pro",
     "purchaseBody": "Köp hanteras av Apple. Klipp får köpstatus men inte dina kort- eller betalningsuppgifter.",
     "linksTitle": "7. Länkförhandsvisningar",
     "linksBody": "När du sparar en länk kan Klipp kontakta webbplatsen för att hämta titel och förhandsvisningsbild.",
-    "servicesTitle": "Var information lagras och delas",
+    "servicesTitle": "Tjänster vi använder",
     "servicesIntro": "Klipp använder följande leverantörer endast för funktionerna som beskrivs här:",
     "services": [
       [
@@ -78,10 +74,6 @@
       [
         "Google Firebase",
         "Anonym användningsstatistik, kraschrapporter och frivilliga Sprid ordet-ansökningar."
-      ],
-      [
-        "Länkade webbplatser",
-        "Används endast för att hämta en förhandsvisning när du sparar en länk."
       ]
     ],
     "safeguards": "Apple och Google behandlar information enligt sina egna integritetspolicyer och tillämpliga dataskyddsregler.",
@@ -104,22 +96,18 @@
     "retentionItems": [
       [
         "Ditt innehåll",
-        "Sparas tills du raderar det. iCloud-innehåll hanteras även via dina iCloud-inställningar."
+        "Sparas tills du raderar det i Klipp eller via iCloud."
       ],
       [
-        "Analytics",
-        "Användningsdata sparas enligt Firebase-projektets inställda lagringstid."
-      ],
-      [
-        "Crashlytics",
-        "Kraschdata sparas normalt i 90 dagar."
+        "Teknisk data",
+        "Sparas bara så länge den behövs för statistik och felsökning."
       ],
       [
         "Sprid ordet",
-        "Ansökningsdata sparas så länge den behövs för granskning och eventuell Pro-belöning."
+        "Sparas så länge ansökan behöver hanteras."
       ]
     ],
-    "rightsTitle": "Dina val och rättigheter",
+    "rightsTitle": "Dina val",
     "rightsIntro": "Du har kontroll över ditt innehåll och de behörigheter Klipp använder.",
     "rights": [
       "Ändra eller återkalla åtkomst till Foton i iOS Inställningar.",
@@ -174,19 +162,15 @@
       ],
       [
         "data",
-        "Information we process"
+        "What Klipp processes"
       ],
       [
         "services",
-        "Services and sharing"
-      ],
-      [
-        "retention",
-        "Retention and deletion"
+        "Services we use"
       ],
       [
         "rights",
-        "Your choices and rights"
+        "Your choices"
       ],
       [
         "contact",
@@ -197,24 +181,24 @@
     "overview": "Klipp stores and organizes the content you choose to save. We do not sell personal data or use your content for advertising.",
     "controllerLabel": "Data controller",
     "controller": "Klipp is developed and provided by Walid Apps. Privacy questions can be sent to walid.apps@outlook.com.",
-    "dataTitle": "Information we process",
-    "contentTitle": "1. Content you save",
-    "contentBody": "Klipp processes images, links, notes, tags, and other information you save so you can organize and search your library.",
-    "contentNote": "This content is stored locally on your device or in your private iCloud database if you enable iCloud sync. It is not sent to Firebase Analytics or Crashlytics.",
+    "dataTitle": "What Klipp processes",
+    "contentTitle": "What you save",
+    "contentBody": "Images, links, notes, and tags are used to organize and search your library. When you save a link, the website may be contacted to retrieve a preview.",
+    "contentNote": "Content is stored on your device or in your private iCloud when sync is enabled. It is not used for statistics or crash reports.",
     "photosTitle": "2. Photos access",
     "photosBody": "Klipp uses Photos access only to import the images you select. You can change this permission at any time in iOS.",
-    "analyticsTitle": "3. Firebase Analytics",
-    "analyticsBody": "Firebase Analytics provides anonymous usage statistics that help us improve the app.",
-    "analyticsNo": "Your images, links, notes, collection names, and search terms are not sent to Analytics.",
+    "analyticsTitle": "Usage and stability",
+    "analyticsBody": "Firebase provides anonymous usage statistics and technical crash reports that help us improve Klipp.",
+    "analyticsNo": "Your saved content is not included.",
     "crashTitle": "4. Firebase Crashlytics",
     "crashBody": "Crashlytics collects technical crash, app version, and device information to help us fix errors. Your saved content is not included.",
-    "spreadTitle": "5. Spread the Word",
-    "spreadBody": "If you use Spread the Word, Firebase stores an anonymous ID, your selected platform, the public link, any optional message, and the application status.",
+    "spreadTitle": "Spread the Word",
+    "spreadBody": "If you use Spread the Word, the information you submit is stored so we can review the application.",
     "purchaseTitle": "6. Purchases and Klipp Pro",
     "purchaseBody": "Purchases are processed by Apple. Klipp receives the purchase status, but not your card or payment details.",
     "linksTitle": "7. Link previews",
     "linksBody": "When you save a link, Klipp may contact the website to retrieve its title and preview image.",
-    "servicesTitle": "Where information is stored and shared",
+    "servicesTitle": "Services we use",
     "servicesIntro": "Klipp uses the following providers only for the purposes described here:",
     "services": [
       [
@@ -224,10 +208,6 @@
       [
         "Google Firebase",
         "Anonymous usage statistics, crash reports, and voluntary Spread the Word applications."
-      ],
-      [
-        "Linked websites",
-        "Used only to retrieve a preview when you save a link."
       ]
     ],
     "safeguards": "Apple and Google process information under their own privacy policies and applicable data-protection rules.",
@@ -250,22 +230,18 @@
     "retentionItems": [
       [
         "Your content",
-        "Stored until you delete it. iCloud content can also be managed through your iCloud settings."
+        "Stored until you delete it in Klipp or through iCloud."
       ],
       [
-        "Analytics",
-        "Usage data is retained according to the Firebase project’s configured retention period."
-      ],
-      [
-        "Crashlytics",
-        "Crash data is normally retained for 90 days."
+        "Technical data",
+        "Kept only as long as needed for statistics and troubleshooting."
       ],
       [
         "Spread the Word",
-        "Application data is kept as long as needed for review and any Pro reward."
+        "Kept as long as needed to process the application."
       ]
     ],
-    "rightsTitle": "Your choices and rights",
+    "rightsTitle": "Your choices",
     "rightsIntro": "You control your content and the permissions Klipp uses.",
     "rights": [
       "Change or revoke Photos access in iOS Settings.",

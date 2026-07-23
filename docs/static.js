@@ -69,12 +69,6 @@ function render(language) {
               <a href="#${escapeHtml(href)}"><span>${String(index + 1).padStart(2, "0")}</span>${escapeHtml(label)}</a>
             `).join("")}
           </nav>
-          <div class="card providers">
-            <h2>${escapeHtml(t.providersTitle)}</h2>
-            <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noreferrer">${escapeHtml(t.appleLink)}<span aria-hidden="true">↗</span></a>
-            <a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noreferrer">${escapeHtml(t.firebaseLink)}<span aria-hidden="true">↗</span></a>
-            <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">${escapeHtml(t.googleLink)}<span aria-hidden="true">↗</span></a>
-          </div>
         </aside>
 
         <div class="policy">
@@ -89,12 +83,8 @@ function render(language) {
             <div class="section-number">02</div>
             <h2>${escapeHtml(t.dataTitle)}</h2>
             ${block(t.contentTitle, t.contentBody, t.contentNote)}
-            ${block(t.photosTitle, t.photosBody)}
             ${block(t.analyticsTitle, t.analyticsBody, t.analyticsNo)}
-            ${block(t.crashTitle, t.crashBody)}
             ${block(t.spreadTitle, t.spreadBody)}
-            ${block(t.purchaseTitle, t.purchaseBody)}
-            ${block(t.linksTitle, t.linksBody)}
           </section>
 
           <section class="card section-card" id="services">
@@ -110,32 +100,22 @@ function render(language) {
               `).join("")}
             </div>
             <p class="small-print">${escapeHtml(t.safeguards)}</p>
-            <div class="subsection">
-              <h2>${escapeHtml(t.legalTitle)}</h2>
-              <div class="definition-list">
-                ${t.legalItems.map(([title, body]) => `
-                  <div><strong>${escapeHtml(title)}</strong><p>${escapeHtml(body)}</p></div>
-                `).join("")}
-              </div>
-            </div>
-          </section>
-
-          <section class="card section-card" id="retention">
-            <div class="section-number">04</div>
-            <h2>${escapeHtml(t.retentionTitle)}</h2>
-            <div class="timeline">
-              ${t.retentionItems.map(([title, body]) => `
-                <div class="timeline-row"><span aria-hidden="true"></span><div><h3>${escapeHtml(title)}</h3><p>${escapeHtml(body)}</p></div></div>
-              `).join("")}
-            </div>
           </section>
 
           <section class="card section-card" id="rights">
-            <div class="section-number">05</div>
+            <div class="section-number">04</div>
             <h2>${escapeHtml(t.rightsTitle)}</h2>
             <p>${escapeHtml(t.rightsIntro)}</p>
             <ul class="check-list">${t.rights.map((right) => `<li>${escapeHtml(right)}</li>`).join("")}</ul>
             <p class="small-print">${escapeHtml(t.rightsNote)}</p>
+            <div class="subsection">
+              <h2>${escapeHtml(t.retentionTitle)}</h2>
+              <div class="definition-list">
+                ${t.retentionItems.map(([title, body]) => `
+                  <div><strong>${escapeHtml(title)}</strong><p>${escapeHtml(body)}</p></div>
+                `).join("")}
+              </div>
+            </div>
             <div class="split">
               <div><h3>${escapeHtml(t.childrenTitle)}</h3><p>${escapeHtml(t.childrenBody)}</p></div>
               <div><h3>${escapeHtml(t.changesTitle)}</h3><p>${escapeHtml(t.changesBody)}</p></div>
@@ -144,7 +124,7 @@ function render(language) {
 
           <section class="card contact-card" id="contact">
             <div>
-              <div class="section-number">06</div>
+              <div class="section-number">05</div>
               <h2>${escapeHtml(t.contactTitle)}</h2>
               <p>${escapeHtml(t.contactBody)}</p>
             </div>
