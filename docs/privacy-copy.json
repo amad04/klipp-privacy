@@ -4,12 +4,12 @@
     "otherLang": "English",
     "badge": "Integritetspolicy",
     "title": "Din data.\nDitt Klipp.",
-    "subtitle": "Klipp är byggt för att samla det du vill hitta igen — utan att göra ditt privata innehåll till en produkt.",
+    "subtitle": "Det du sparar är ditt. Innehållet stannar på din enhet eller i din privata iCloud och är inte tillgängligt för oss bakom Klipp.",
     "updated": "Senast uppdaterad 24 juli 2026",
     "summary": [
       [
-        "Lokal först",
-        "Ditt bibliotek lagras på enheten om du inte själv aktiverar iCloud."
+        "Privat på riktigt",
+        "Vi bakom Klipp kan inte se eller komma åt det du sparar — varken lokalt eller i iCloud."
       ],
       [
         "Ingen reklam",
@@ -44,13 +44,13 @@
       ]
     ],
     "overviewTitle": "Översikt",
-    "overview": "Klipp lagrar och organiserar innehållet du själv väljer att spara. Vi säljer inte personuppgifter och använder inte ditt innehåll för reklam.",
+    "overview": "Klipp organiserar innehållet du själv väljer att spara. Innehållet skickas inte till oss och vi kan inte se eller komma åt det. Vi säljer inte personuppgifter och använder inte ditt innehåll för reklam.",
     "controllerLabel": "Personuppgiftsansvarig",
     "controller": "Klipp utvecklas och tillhandahålls av Walid Apps. Frågor om integritet kan skickas till walid.apps@outlook.com.",
     "dataTitle": "Det Klipp behandlar",
     "contentTitle": "Det du sparar",
     "contentBody": "Bilder, länkar, anteckningar och taggar används för att organisera och söka i ditt bibliotek. När du sparar en länk kan webbplatsen kontaktas för att hämta en förhandsvisning.",
-    "contentNote": "Innehållet lagras på din enhet eller i din privata iCloud om du aktiverar synk. Det används inte för statistik eller kraschrapporter.",
+    "contentNote": "Innehållet lagras på din enhet eller i din privata iCloud om du aktiverar synk. Vi bakom Klipp har inte tillgång till det och det används inte för statistik eller kraschrapporter.",
     "photosTitle": "2. Åtkomst till Foton",
     "photosBody": "Klipp använder bara åtkomst till Foton för att importera de bilder du väljer. Du kan ändra behörigheten när som helst i iOS.",
     "analyticsTitle": "Användning och stabilitet",
@@ -138,12 +138,12 @@
     "otherLang": "Svenska",
     "badge": "Privacy Policy",
     "title": "Your data.\nYour Klipp.",
-    "subtitle": "Klipp is built to collect what you want to find again — without turning your private content into a product.",
+    "subtitle": "What you save belongs to you. It stays on your device or in your private iCloud and is not accessible to us at Klipp.",
     "updated": "Last updated July 24, 2026",
     "summary": [
       [
-        "Local first",
-        "Your library stays on your device unless you choose to enable iCloud."
+        "Private by design",
+        "We at Klipp cannot see or access what you save — locally or in iCloud."
       ],
       [
         "No advertising",
@@ -178,13 +178,13 @@
       ]
     ],
     "overviewTitle": "Overview",
-    "overview": "Klipp stores and organizes the content you choose to save. We do not sell personal data or use your content for advertising.",
+    "overview": "Klipp organizes the content you choose to save. It is not sent to us, and we cannot see or access it. We do not sell personal data or use your content for advertising.",
     "controllerLabel": "Data controller",
     "controller": "Klipp is developed and provided by Walid Apps. Privacy questions can be sent to walid.apps@outlook.com.",
     "dataTitle": "What Klipp processes",
     "contentTitle": "What you save",
     "contentBody": "Images, links, notes, and tags are used to organize and search your library. When you save a link, the website may be contacted to retrieve a preview.",
-    "contentNote": "Content is stored on your device or in your private iCloud when sync is enabled. It is not used for statistics or crash reports.",
+    "contentNote": "Content is stored on your device or in your private iCloud when sync is enabled. We at Klipp do not have access to it, and it is not used for statistics or crash reports.",
     "photosTitle": "2. Photos access",
     "photosBody": "Klipp uses Photos access only to import the images you select. You can change this permission at any time in iOS.",
     "analyticsTitle": "Usage and stability",
