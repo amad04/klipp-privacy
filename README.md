@@ -30,6 +30,18 @@ pnpm run build
 The primary page is in `app/page.tsx`, styling is in `app/globals.css`, and the
 social preview is `public/og.png`.
 
+## GitHub Pages
+
+The `docs/` directory contains a standalone static version of the same page.
+The included GitHub Actions workflow deploys that directory to GitHub Pages
+whenever `main` is updated.
+
+Regenerate the static text, CSS, and images after editing the primary page:
+
+```bash
+pnpm run static
+```
+
 ## Before publishing updates
 
 Review the policy whenever Klipp changes its SDKs, permissions, storage,
